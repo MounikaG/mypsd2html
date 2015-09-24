@@ -1,19 +1,22 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-  overflow: hidden;
-}
+
 
 #land {
   width:100%;
   height: 100vh;
-  background-image: url('land.jpg');
-  background-size:cover;
+  background-image: url('../../images/land.jpg');
+  background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   color: #FFFFFF;
+  text-align: right;
 
-}
+  
 
-land .cont {
-  border: 1px solid transparent;
+  a {
+    &, &:hover {
+     background-color: #4fcb8d;
+     color: #FFFFFF;
+     text-decoration: none;
+    }
+  }
 }
